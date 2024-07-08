@@ -1,0 +1,10 @@
+{
+    "domain": "custom_modbus",
+    "name": "Custom Modbus",
+    "version": "1.0",
+    "requirements": [
+        "pymodbus==2.5.3"
+    ],
+    "dependencies": [],
+    "codeowners": ["@jouw_github_naam"]
+}
