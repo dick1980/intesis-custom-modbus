@@ -6,3 +6,31 @@ On our premises are installed two large Mistubishi FDU(M) units and nine SRK uni
 Thus I decided to customize the standard modbus integration to support the louvre settings through the swing mode and the applicable fan mode settings.
 
 It further supports modbus-configured switches and binary sensors.
+
+# Supported modbus entites
+* Binary sensors
+* Switches
+* Climate entities
+
+# Climate entitie modifications
+
+Supported HVAC modes:
+* Off
+* Cool
+* Heat
+* Fan-only
+* Dry
+* Auto
+
+Supported Fan modes:
+* Low
+* Medium
+* High
+* Powerful
+
+Supported Swing modes (louvre settings):
+* Swing
+* Position 1
+* Position 2
+* Position 3
+* Position 4
