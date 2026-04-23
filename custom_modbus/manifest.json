@@ -1,10 +1,11 @@
 {
     "domain": "custom_modbus",
-    "name": "Intesis Custom Modbus",
-    "version": "1.0",
-    "requirements": [
-        "pymodbus==2.5.3"
-    ],
+    "name": "Custom Modbus",
+    "version": "2.0.0",
+    "documentation": "https://github.com/dick1980/custom_modbus",
+    "issue_tracker": "https://github.com/dick1980/custom_modbus/issues",
+    "iot_class": "local_polling",
+    "requirements": ["pymodbus>=3.6.0"],
     "dependencies": [],
     "codeowners": ["@dick1980"]
 }
